@@ -1,12 +1,12 @@
 # Show open issues from a Github repository.
 #
 # You need to set the following variable:
-#   HUBOT_GITHUB_TOKEN = "<oauth token>"
+#HUBOT_GITHUB_TOKEN = "dac885d217dd0bf8fb78"
 #
 # You may optionally set the following variables:
-#   HUBOT_GITHUB_USER = "<default user/org name>"
-#   HUBOT_GITHUB_REPO = "<default repo>"
-#   HUBOT_GITHUB_USER_(.*) = "<GitHub username for matching chat handle>"
+#HUBOT_GITHUB_USER = "University-Bound"
+#  HUBOT_GITHUB_REPO = "LeadManagementPlatform"
+#   HUBOT_GITHUB_USER_(.*) = "ubdeploy"
 #
 # If HUBOT_GITHUB_USER is set, you can ask `show me issues for hubot` instead
 # of `show me issues for github/hubot`.
