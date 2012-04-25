@@ -71,8 +71,8 @@ module.exports = (robot) ->
       msg.send url
 
 memeGenerator = (msg, generatorID, imageID, text0, text1, callback) ->
-  username = octobot
-  password = fooblef
+  username = process.env.HUBOT_MEMGEN_USERNAME
+  password = process.env.HUBOT_MEMEGEN_PASSWORD
   preferredDimensions = process.env.HUBOT_MEMEGEN_DIMENSIONS
 
   unless username? and password?
